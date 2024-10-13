@@ -15,7 +15,6 @@ corpus = [preprocess(' '.join(doc)) for doc in original_corpus]
 
 # Initialize BM25 with the preprocessed corpus
 bm25 = BM25(corpus)
-
 @app.route('/')
 def home():  # put application's code here
     return render_template('search.html')
