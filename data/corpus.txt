@@ -1,0 +1,5 @@
+Postgres offers full-text search capabilities
+BM25 is a ranking function used in search engines
+Flask is a lightweight WSGI web application framework in Python
+Search engines use BM25 to rank documents based on relevance
+Full-text search is powerful and supports many features
